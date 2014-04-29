@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    int userHeight;
+    
+}
+
+
+
+
+
+- (IBAction)suckD:(id)sender;
 
 @end
+
+
+

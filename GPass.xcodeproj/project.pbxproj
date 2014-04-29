@@ -21,6 +21,7 @@
 		4A16BE241907EBCE003EC2B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A16BE061907EBCE003EC2B5 /* UIKit.framework */; };
 		4A16BE2C1907EBCE003EC2B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A16BE2A1907EBCE003EC2B5 /* InfoPlist.strings */; };
 		4A16BE2E1907EBCE003EC2B5 /* GPassTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16BE2D1907EBCE003EC2B5 /* GPassTests.m */; };
+		4A16BE391907EC3D003EC2B5 /* PassG.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A16BE381907EC3D003EC2B5 /* PassG.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4A16BE291907EBCE003EC2B5 /* GPassTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPassTests-Info.plist"; sourceTree = "<group>"; };
 		4A16BE2B1907EBCE003EC2B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A16BE2D1907EBCE003EC2B5 /* GPassTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPassTests.m; sourceTree = "<group>"; };
+		4A16BE371907EC3D003EC2B5 /* PassG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassG.h; sourceTree = "<group>"; };
+		4A16BE381907EC3D003EC2B5 /* PassG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassG.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				4A16BE181907EBCE003EC2B5 /* ViewController.m */,
 				4A16BE1A1907EBCE003EC2B5 /* Images.xcassets */,
 				4A16BE091907EBCE003EC2B5 /* Supporting Files */,
+				4A16BE371907EC3D003EC2B5 /* PassG.h */,
+				4A16BE381907EC3D003EC2B5 /* PassG.m */,
 			);
 			path = GPass;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A16BE391907EC3D003EC2B5 /* PassG.m in Sources */,
 				4A16BE191907EBCE003EC2B5 /* ViewController.m in Sources */,
 				4A16BE131907EBCE003EC2B5 /* AppDelegate.m in Sources */,
 				4A16BE0F1907EBCE003EC2B5 /* main.m in Sources */,
